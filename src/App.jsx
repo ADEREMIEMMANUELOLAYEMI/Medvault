@@ -2,7 +2,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Nav from "./COMPONENTS/Nav";
+import Nav from "../src/COMPONENTS/Ui/Nav";
 import About from "./COMPONENTS/About";
 import HealthcareServices from "./COMPONENTS/HealtCareServices";
 import HealthSpecialist from "./COMPONENTS/LOg/HealthSpecialist";
