@@ -2,7 +2,7 @@
 // import { Link } from "react-router-dom";
 // import Hello from "../assets/IMAGES/Hello.jpg";
 // import Logo from '../assets//IMAGES/logo.png'
-// const NavSection = () => {
+// const Nav = () => {
 //   return (
 //     <div className="relative w-full h-screen">
 //       {/* Background Image */}
@@ -81,13 +81,13 @@
 //   );
 // };
 
-// export default NavSection;
+// export default Nav;
 import React from "react";
 import { Link } from "react-router-dom";
 import Hello from "../assets/IMAGES/Hello.jpg";
 import Logo from "../assets/IMAGES/logo.png";
 
-const NavSection = () => {
+const Nav = () => {
   return (
     <div className="relative w-full h-screen">
       {/* Background Image */}
@@ -168,4 +168,4 @@ const NavSection = () => {
   );
 };
 
-export default NavSection;
+export default Nav;
